@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        
+        <CheckBoxPreference 
+            android:key="perform_updates"
+            android:summary="@string/pref_enable_summary"
+            android:title="@string/pref_enable_title" 
+            android:defaultValue="true"
+        />
+        
+       <!-- <ListPreference 
+            android:key="resolution"
+            android:summary="@string/pref_resolution_summary"
+            android:title="@string/pref_resolution_title" 
+            android:defaultValue="960x800" 
+            android:entries="@array/resolution"
+            android:entryValues="@array/resolutionValues"
+        />  --> 
+        
+        <Preference
+                android:title="@string/pref_publickey_title"
+                android:summary="@string/pref_publickey_summary"
+                android:key="show_public_key" />
+        
+        <Preference
+                 android:title="@string/pref_load_title"
+                android:summary="@string/pref_load_summary"
+                android:key="load_now" />
+        
+        <Preference
+                 android:title="@string/pref_reset_title"
+                android:summary="@string/pref_reset_summary"
+                android:key="reset" />
+        
+        <Preference
+                 android:title="@string/pref_about_title"
+                android:summary="@string/pref_about_summary"
+                android:key="about" />
+    
+</PreferenceScreen>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">WallSetter</string>
+    <string name="public_key_missing">Missing - no key available</string>
+    <string name="about_title">About</string>
+    <string name="about_text">WallSetter is a fun little social experiment. Install the app on your phone, make sure you are connected to the internet and it will register itself. Get your public key from the app and share it with a friend. Whoever has it can come to this page and use it to automatically and instantly change your wallpaper. They get to share images with you in a fun way and you get a magically updating wallpaper.\nEasy :)\nThe software is distributed free of charge and comes with no guarantees. You use it at your own responsibility. Please send any bugs and feedback to marek.rei@gmail.com. </string>
+    <string name="about_close">Close</string>
+    <string name="pref_enable_title">Enable updates</string>
+    <string name="pref_enable_summary">Enable or disable updates</string>
+    <string name="pref_resolution_title">Resolution</string>
+    <string name="pref_resolution_summary">Choose the maximum resolution of the images to download</string>
+    <string name="pref_publickey_title">Public key</string>
+    <string name="pref_publickey_summary">Get the upload key that you can use at siineiolekala.net/wallsetter</string>
+    <string name="pref_load_title">Load now</string>
+    <string name="pref_load_summary">Retrieve the latest wallpaper</string>
+    <string name="pref_reset_title">Reset</string>
+    <string name="pref_reset_summary">Press here to reset the app</string>
+    <string name="pref_about_title">About</string>
+    <string name="pref_about_summary">More information</string>
+</resources>
